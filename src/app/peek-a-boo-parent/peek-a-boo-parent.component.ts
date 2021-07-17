@@ -16,7 +16,7 @@ export class PeekABooParentComponent {
     this.hookLog = logger.logs;
   }
   hasChild = false;
-  heroName = 'Fazio';
+  heroName: string = 'Fazio';
   toggleChild() {
     this.hasChild = !this.hasChild;
     if (this.hasChild) {
